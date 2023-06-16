@@ -22,23 +22,23 @@ For this project, we need a large number of handwritten images of different Assa
 
 ### Soroborno-
 
-       অ    আ   ই   ঈ
-		   উ    ঊ   ঋ
-       এ    ঐ   ও   ঔ
+    অ    আ   ই   ঈ
+    উ    ঊ   ঋ
+    এ    ঐ   ও   ঔ
 
 ### Byonjonborno-
-       ক    খ   গ		ঘ		ঙ
-       চ    ছ   জ		ঝ   ঞ
-       ট    ঠ   ড		ঢ   ণ
-       ত    থ   দ		ধ		ন
-       প    ফ   ব		ভ		ম
-			 য    ৰ   ল		ৱ
-		 	 শ    ষ   স		হ
-			 ক্ষ    ড়   ঢ়		য়
-			 ৎ    ং		ঃ		ঁ
+    ক    খ   গ   ঘ   ঙ
+    চ    ছ   জ   ঝ  ঞ
+    ট    ঠ   ড   ঢ   ণ
+    ত    থ   দ   ধ   ন
+    প    ফ   ব   ভ   ম
+    য    ৰ   ল   ৱ
+    শ    ষ   স   হ
+    ক্ষ    ড়   ঢ়   য়
+    ৎ    ং  ঃ	ঁ
 
 ### Digits-
-       ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
+    ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
 
 ### Juktakkhor-
       দ্ব		ঙ্গ		স্ক		স্ফ		স্থ
