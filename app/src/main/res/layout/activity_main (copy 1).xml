@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E5DE"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <GridLayout
+            android:id="@+id/grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:background="#F8F8F5"
+                app:srcCompat="@drawable/ic_baseline_brush_24" />
+
+            <ImageButton
+                android:id="@+id/choose_photo_btn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#F8F8F5"
+                app:srcCompat="@drawable/ic_baseline_photo_library_24" />
+
+            <ImageButton
+                android:id="@+id/take_photo_btn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#F8F8F5"
+                app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+            <ImageButton
+                android:id="@+id/clear_canvas_btn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#F8F8F5"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        </GridLayout>
+
+        <SeekBar
+            android:id="@+id/stroke_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:thumb="@drawable/thumb" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/detect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FEAE49"
+        android:backgroundTint="#FEAE49"
+        android:fontFamily="sans-serif-medium"
+        android:text="Detect Character"
+        android:textSize="16sp" />
+
+</RelativeLayout>
