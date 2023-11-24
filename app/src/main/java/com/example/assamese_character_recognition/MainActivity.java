@@ -186,8 +186,6 @@ public class MainActivity extends AppCompatActivity {
         return fileChannel.map(FileChannel.MapMode.READ_ONLY,startOffset,declareLength);
     }
 
-
-    
     private void classifyImage(Bitmap image) {
         ByteBuffer byteBuffer = ByteBuffer.allocateDirect(4 * imageSize * imageSize * 1);
         int[] intValues = new int[imageSize * imageSize];
